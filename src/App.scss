@@ -1,0 +1,86 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500&display=swap');
+@font-face {
+    font-family: 'GTAmerica';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../src/assets/fonts/GTAmerica-ExtRg.woff2") format('woff2');
+    src: url("../src/assets/fonts/GTAmerica-ExtBd.woff2") format('woff2');
+    src: url("../src/assets/fonts/GTAmerica-ExpMd.woff2") format('woff2');
+    src: url("../src/assets/fonts/GTAmerica-ExpBd.woff2") format('woff2');
+
+}
+@font-face {
+    font-family: 'GTAmerica1';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../src/assets/fonts/GTAmerica-ExtRg.woff2") format('woff2');
+    // src: url("../src/assets/fonts/GTAmerica-ExtBd.woff2") format('woff2');
+    // src: url("../src/assets/fonts/GTAmerica-ExpMd.woff2") format('woff2');
+    // src: url("../src/assets/fonts/GTAmerica-ExpBd.woff2") format('woff2');
+
+}
+@font-face {
+    font-family: 'GTAmerica2';
+    font-weight: 400;
+    font-style: normal;
+    // src: url("../src/assets/fonts/GTAmerica-ExtRg.woff2") format('woff2');
+    // src: url("../src/assets/fonts/GTAmerica-ExtBd.woff2") format('woff2');
+    src: url("../src/assets/fonts/GTAmerica-ExpMd.woff2") format('woff2');
+    // src: url("../src/assets/fonts/GTAmerica-ExpBd.woff2") format('woff2');
+
+}
+@font-face {
+    font-family: 'Saol';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../src/assets/fonts/SaolText-Regular.woff2") format('woff2');
+    src: url("../src/assets/fonts/SaolDisplay-Regular.woff2") format('woff2');
+    src: url("../src/assets/fonts/SaolDisplay-Light.woff2") format('woff2');
+
+
+}
+@font-face {
+    font-family: 'Saol3';
+    font-weight: 400;
+    font-style: normal;
+    // src: url("../src/assets/fonts/SaolText-Regular.woff2") format('woff2');
+    // src: url("../src/assets/fonts/SaolDisplay-Regular.woff2") format('woff2');
+    src: url("../src/assets/fonts/SaolDisplay-Light.woff2") format('woff2');
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saol';
+    font-weight: normal;
+
+    a{
+    color: black;
+
+    }
+    button{
+     color: black;
+
+    }
+
+    h6,a{
+        // font-size: 10px;
+        font-family: 'GTAmerica';
+        font-weight: 100;
+    }
+    p{
+        // font-size: 10px;
+        font-family: 'GTAmerica1';
+        font-weight: 100;
+    }
+  
+}
+
+// body{
+//     color: white;
+
+
+// }

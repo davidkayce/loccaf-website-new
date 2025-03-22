@@ -1,0 +1,264 @@
+.footer-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  // border: 1px solid white;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    // border: 1px solid white;
+    width: 90%;
+    gap: 2rem;
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // border: 1px solid white;
+
+      h1 {
+        font-weight: 700;
+      }
+
+      a {
+        width: fit-content;
+
+        img {
+          height: 3.5rem;
+        }
+      }
+
+    }
+
+    .footer-mid {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+      .mid-left {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+        h1 {
+          width: 72%;
+          font-weight: 700;
+
+        }
+
+        #text {
+          background: none;
+          border: none;
+          width: 60%;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          font-size: 16px;
+          outline: 0;
+          color: #000;
+          font-weight: 700;
+          padding-bottom: 10px;
+        }
+      }
+
+      .mid-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+
+
+        .right {
+          display: flex;
+          flex-direction: column;
+          flex: 1 1 auto;
+          margin: 1.5rem;
+          text-align: right;
+          // float: right;
+
+          h5 {
+            // opacity: 0.7;
+            font-size: 14px;
+            font-family: 'GTAmerica';
+            font-weight: 100;
+            padding-bottom: 10px;
+          }
+
+          a {
+            font-family: 'GTAmerica1';
+            font-weight: 100;
+            // font-size: 14px;
+
+            &:hover {
+              color: #0ea5e9;
+            }
+
+          }
+        }
+
+      }
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      // gap: 1rem;
+      // opacity: 0.6;
+      font-size: 14px;
+      margin-bottom: 2rem;
+
+      // .fot-left{
+      //     display: flex;
+      //     justify-content: space-between;
+      //     // gap: 6rem;
+
+      // }
+
+      #ft-el {
+        display: flex;
+        // flex-direction: column;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: right;
+
+        p {
+          font-family: 'GTAmerica1';
+          font-weight: 600;
+          font-size: 12px;
+
+        }
+      }
+
+      .handles {
+        margin-left: 16px;
+      }
+    }
+  }
+
+
+}
+
+@media (width <=1100px) {
+  .footer-con {
+    .footer {
+      .footer-mid {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (width <=912px) {
+  .footer-con {
+    .footer {
+      .footer-top {
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      .footer-mid {
+        justify-content: center;
+
+        .mid-right {
+          .right {
+            text-align: left;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (width <=600px) {
+  .footer-con {
+    .footer {
+      .footer-top {
+        img {
+          transform: scale(0.8);
+        }
+      }
+
+      .footer-mid {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: unset;
+
+        .mid-left {
+          justify-content: center;
+          align-items: center;
+
+          h1 {
+            font-size: 20px;
+          }
+
+          form {
+            width: 75%;
+
+            #text {
+              font-size: 13px;
+              width: 100%;
+            }
+          }
+
+
+        }
+
+        .mid-right {
+          flex-direction: column;
+          gap: 1rem;
+
+          .right {
+            text-align: left;
+
+          }
+        }
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+
+
+        #ft-el {
+          flex-direction: row;
+          gap: 5px;
+
+        }
+
+        .sm-handles {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (width <=420px) {
+  .footer-con {
+    .footer {
+      .footer-top {
+        h1 {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}

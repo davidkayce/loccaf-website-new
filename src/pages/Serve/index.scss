@@ -1,0 +1,301 @@
+.serveCon{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    overflow: hidden;
+    color: #1B1212;
+
+    .serve{
+        height: 55rem;
+
+
+        .serves{
+            position: relative;
+            top: 30%;
+
+            .serviceCon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .service{
+                    display: flex;
+                    flex-wrap: wrap;
+                     width: 80%;
+                     gap: 2rem;
+                     height: 38rem;
+
+                    .left{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1.5rem;
+                        flex: 1 1 40%;
+                        h1{
+                            font-size: 51px;
+                            font-weight: 700;
+                        }
+                        .serve-text{
+                            position: relative;
+                            left: 10%;
+                            width: 75%;
+
+                            p{
+                                font-size: 17px;
+                                line-height: 150%;
+                                word-spacing: 3px;
+                            }
+                        }
+                    }
+                    .right{
+                        flex: 1 1 40%;
+                        height: 95%;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .apply-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        .apply{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 55%;
+            text-align: center;
+            gap: 2rem;
+            color: #1B1212;
+
+            // border: 1px solid black;
+            h1{
+                font-size: 60px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 14px;
+                font-family: 'GTAmerica1';
+                font-weight: 100;
+            }
+            a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: aqua;
+                &:hover{
+                    color: #1B1212;
+
+                }
+               
+
+            }
+        }
+    }
+}
+@media (width <= 1100px) {
+    .serveCon{
+        .serve{
+            .serves{
+                .serviceCon{
+                    .service{
+                        width: 90%;
+                        .left{
+                            h1{
+                                font-size: 45px;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (width <= 940px) {
+    .serveCon{
+        .serve{
+            .serves{
+                .serviceCon{
+                    .service{
+                        width: 95%;
+                        .left{
+                            h1{
+                                font-size: 38px;
+                            }
+                           .serve-text{
+                            width: 95%;
+                            left: 5%;
+                           }
+                        }
+                    }
+                }
+            }
+        }
+        .apply-con{
+            .apply{
+                width: 60%;
+            }
+        }
+    }
+}
+@media (width <= 767px) {
+    .serveCon{
+        .serve{
+            height: 55rem;
+
+            .serves{
+                top: 10%;
+                .serviceCon{
+                    flex-direction: column;
+                    gap: 1rem;
+                    .top{
+                        font-size: 47px;
+                        font-family: 'Saol3';
+                           font-weight: 100;
+                    }
+                    .service{
+                        flex-direction: column-reverse ;
+                        gap: 2.3rem;
+                        height: unset;
+                        width: 89%;
+                        .left{
+                            flex: unset;
+                            top: unset;
+                            height:45%;
+                            h1{
+                                display: none;
+                            }
+                            .serve-text{
+                                left: unset; 
+                                width: 88%;
+
+                                
+                            }
+                        }
+                        .right{
+                        flex: unset;
+                        width: 100%;
+                        height: 45%;
+                        }
+                    }
+                }
+            }
+        }
+        .apply-con{
+            .apply{
+                width: 87%;
+                text-align: unset;
+                align-items: unset;
+
+                h1{
+                    font-size: 39px;
+                    // font-weight: 700;
+                }
+            }
+        }
+    }
+}
+@media (width <= 600px) {
+    .serveCon{
+        .serve{
+            height: 59rem;
+            .serves{
+                .serviceCon{
+                    .top{
+                        width: 90%;
+
+                    }
+
+                   .service{
+                    .left{
+                        .serve-text{
+                            width: 90%;
+                        }
+                    }
+
+                    .right{
+                        height: 47%;
+                        }
+                   }
+                   
+                }
+            }
+        }
+    }
+}
+@media (width <= 400px) {
+    .serveCon{
+        .serve{
+            height: 71rem;
+
+            .serves{
+                .serviceCon{
+
+                    .top{
+                        width: 90%;
+
+                    }
+
+                   .service{
+
+                    .left{
+                        .serve-text{
+                            width: 90%;
+                        }
+                    }
+
+                    .right{
+                        height: 47%;
+                        }
+                   }
+                   
+                }
+            }
+        }
+    }
+}
+@media (width >= 767px) {
+    .serveCon{
+        .serve{
+            .serves{
+                .serviceCon{
+                    .top{
+                        display: none;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+@media (height >= 1000px) {
+    .serveCon{
+        .serve{
+            height: 100vh;
+            .serves{
+                top: 10%;
+                height: 90%;
+                .serviceCon{
+                    height: 100%;
+                    .service{
+                        align-items: center;
+                        width: 85%;
+                        height: 100% ;
+                        .left{
+                            h1{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

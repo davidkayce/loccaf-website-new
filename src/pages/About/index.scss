@@ -1,0 +1,1102 @@
+
+
+section{
+    background-color: #f2f8fb;
+    color: #1B1212;
+   
+
+}
+.aboutCon{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    overflow: hidden;
+    .aboutz{
+        height: 50rem;
+
+
+        .about{
+            position: relative;
+            top: 30%;
+    
+            .usCon{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .top{
+                    position: absolute;
+                    left: 17%;
+                    top: 0;
+                    h1{
+                     font-size: 74px;
+                     font-weight: 600;
+                    }
+                 }
+                .us{
+                   display: flex;
+                   flex-wrap: wrap;
+                    width: 69%;
+                    gap: 3rem;
+                    height: 29rem;
+                    
+                    .us-left{
+                        display: flex;
+                        flex-direction: column;
+                        flex: 1 1 20%;
+                        position: relative;
+                        top: 20%;
+
+                     
+                        .left-body{
+                            width: 69%;
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.5rem;
+                            left: 27%;
+                            
+                            .bod-top{
+                                line-height: 150%;
+                                h4{
+                                    font-family: 'GTAmerica';
+                                    font-weight: 100;
+                                }
+                                
+                            }
+                            .body-bot{
+                                
+                                p{
+                                    font-size: 18px;
+                                    line-height: 150%;
+                                    font-family: 'GTAmerica1';
+                                    font-weight: 100;
+                                    word-spacing: 4px;
+                                }
+                            }
+                        }
+                    }
+                    .us-right{
+                        display: flex;
+                        flex: 1 1 25%;
+                        height: 91%;
+                        position: relative;
+                        top: 5%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+
+                        }
+                    }
+                }
+            }
+    
+        
+    
+        }
+
+    }
+    .belief-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        .belief{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 42%;
+            text-align: center;
+            gap: 1.5rem;
+            color: #1B1212;
+
+            // border: 1px solid black;
+            h1{
+                font-size: 63px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 14.1px;
+                font-family: 'GTAmerica1';
+                font-weight: 200;
+            }
+            h3{
+                font-size: 17px;
+                font-family: 'GTAmerica1';
+                font-weight: 100;
+            }
+        }
+    }
+    .truthCon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+      
+
+        .truth{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+            width: 95%;
+            padding: 12rem 0 5rem 3rem;
+            gap: 3rem;
+            clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);               
+
+            // height: 200vh;
+
+            h5{
+                position: relative;
+                left: 5%;
+                opacity: 0.6;
+                font-family: 'GTAmerica2';
+                font-weight: 200;
+            }
+            .close-divs{
+                position: relative;
+                left: 5%;
+                // top: 13%;
+                width: 50%;
+
+
+                .container{
+                    display: flex;
+                    gap: 2rem;
+                    border-top: 1px solid white;
+                    padding: 20px 8px;
+                    width: 100%;
+
+                    h1{
+                        font-size: 48px;
+                        opacity: 0.6;
+                        font-weight: 300;
+
+                    }
+
+                    .contain{
+                        display: grid;
+                        width: 100%;
+                        // gap: 1.5rem;
+
+                        .tops{
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: center;
+                            padding: 1rem 0 2rem 0;
+                            width: 100%;
+                            
+
+                            h4{
+                                font-family: 'GTAmerica2';
+                                font-weight: 200;
+                                width: 87%;
+                            }
+
+                           .number1{
+                            font-size: 30px;
+                            -webkit-text-stroke: 0.7px white;
+                            transform: rotate(45deg);
+                            transition: .3s ease-in-out;
+                            transform: scale(1.1);
+                             width: 12%;
+
+                            // height: 3rem;
+
+                            // font-weight: 100;
+                           }
+                           .rotate{
+                            transform: rotate(90deg);
+
+                           }
+                            
+                        }
+                        .close{
+                            position: relative;
+                            display: flex;
+                            width: 84%;
+                            display: none;
+
+                            p{
+                                position: relative;
+                                font-size: 14px;
+                                font-family: 'GTAmerica1';
+                                font-weight: 100;
+                                line-height: 160%;
+                            }
+                        }
+                        .show{
+                            display: block;
+                        }
+                        
+                    }
+                    &:hover{
+                        .contain{
+                            .tops{
+                                h3{
+                                    color: aqua;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .last{
+                    border-bottom: 1px solid white;
+                }
+            }
+
+
+        }
+    }
+    .aboutus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        .about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 60%;
+            text-align: center;
+            gap: 1.5rem;
+            color: #1B1212;
+
+            // border: 1px solid black;
+            h1{
+                font-size: 63px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 14px;
+                font-family: 'GTAmerica1';
+                font-weight: 100;
+            }
+        
+        }
+    }
+    .us-picsCon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white;
+        margin-top: 4rem;
+        // overflow-x: hidden;
+        // background: #fff;
+        .us-pics{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+
+                .pics{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    width: 95%;
+                    height: 46rem;
+
+                    .uspic1{
+                        width: 95%;
+                        height: 92%;
+                        right: 2%;
+                        bottom: 3%;
+                        position: relative;
+                        background-color: #1B1212;
+                        // img{
+                        //     width: 100%;
+                        //     height: 100%;
+                        //     object-fit: cover; 
+    
+    
+                        // }
+                    }
+    
+                    .uspic2{
+                        position: absolute;
+                        width: 96%;
+                        height: 92%;
+                        left: 4%;
+                        // display: none;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+    
+    
+                        }
+                        .overlaid{
+                            opacity: 1;
+                            position: absolute;
+                            // mix-blend-mode:difference;
+                            background: rgba(0, 0, 0, .4);
+                            z-index: 3;
+                            // left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+            
+            .uspic-contents{
+                opacity: 1;
+                position: absolute;
+                mix-blend-mode:normal;
+                // background: rgba(0, 0, 0, .1);
+                z-index: 6;
+                width: 45%;
+                left: 10%;
+                padding: 60px;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                overflow: hidden;
+                
+
+
+                h1{
+                    font-size: 45px;
+                }
+                p{
+                    font-size: 14px;
+                    font-family: 'GTAmerica1';
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .weCon{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        gap: 7rem;
+        color: #1B1212;
+
+
+        .leftCon{
+            display: flex;
+            flex: 1 1 50%;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 1rem;
+
+            a{
+                color: aqua;
+                font-family: "GTAmerica";
+                font-size: 14px;
+
+                &:hover{
+                    color: #1B1212;
+                }
+
+            }
+            .left{
+                display: flex;
+                flex-direction: column;
+                width: 84%;
+                gap: 1.5rem;
+                h4{
+                    font-size: 17px;
+                    word-spacing: 3px;
+                    line-height: 150%;
+                    font-family: "GTAmerica";
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 140%;
+                    font-family: "GTAmerica1";
+
+                }
+                h5{
+                    font-size: 15px;
+                    font-family: "GTAmerica";
+
+                }
+            }
+        }
+        .right{
+            flex: 1 1 35%;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            .top{
+                h1{
+                    font-size: 48px;
+                    padding: 1rem;
+                    margin: 0;
+                    font-family: 'Saol';
+                    line-height: 100%;
+                    word-spacing: 3px;                    
+                }
+            }
+            .pic{
+                width: 100%;
+                height: 60%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .vision-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        .vision{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 70%;
+            text-align: center;
+            gap: 2rem;
+            color: #1B1212;
+
+            // border: 1px solid black;
+            h1{
+                font-size: 55px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 15px;
+
+            }
+            h3{
+                font-size: 17px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+@media (width<= 1300px) {
+    .aboutCon{
+        .belief-con{
+            .belief{
+
+                h1{
+                    font-size: 60px;
+                }
+            }
+        }
+        .aboutus{
+            .about{
+
+                h1{
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media (width <=1100px) {
+    .aboutCon{
+        .aboutz{
+            // height: ;
+            .about{
+                .usCon{
+                    .top{
+                        left: 6%;
+                    }
+                    .us{
+                        width: 88%;
+                    // height: 33rem;
+                        .us-left{
+                            .left-body{
+                                width: 85%;
+                                left: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .belief-con{
+            .belief{
+                width: 52.5%;
+
+                h1{
+                    font-size: 60px;
+                }
+            }
+        }
+        .truthCon{
+            .truth{
+                .close-divs{
+                    width: 55%;
+                }
+            }
+        }
+        .us-picsCon{
+            .us-pics{
+                .pics{
+                    .uspic1{
+                        width: 92%;
+                        height: 85%;
+                    }
+                    .uspic2{
+                        width: 92%;
+                        height: 85%;
+                        left: 6%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+    
+                        }
+                    }
+                }
+                
+                .uspic-contents{
+                    // bottom: 5%;
+                    width: 65%;
+
+
+                }
+            }
+        }
+    }
+}
+@media (width<= 940px) {
+    .aboutCon{
+        .belief-con{
+            .belief{
+                width: 62%;
+
+                h1{
+                    font-size: 54px;
+                }
+            }
+        }
+        .truthCon{
+            .truth{
+                padding-left: 0;
+                
+                justify-content: center;
+                align-items: center;
+                h5{
+                    width: 95%;
+                    left: unset;
+                }
+                .close-divs{
+                    
+                    left: unset;
+                    width: 95%;
+                    .container{
+                        gap: 1rem;
+                        h1{
+                            font-size: 40px;
+                        }
+                        .contain{
+                            .tops{
+                                padding-top: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .aboutus{
+            .about{
+                width: 72%;
+
+                h1{
+                    font-size: 54px;
+                }
+            }
+        }
+        .us-picsCon{
+            .us-pics{
+                .pics{
+                    .uspic1{
+                        width: 92%;
+                        height: 85%;
+                    }
+                    .uspic2{
+                        width: 92%;
+                        height: 85%;
+                        left: 6%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+
+                        }
+                    }
+                }
+               
+                .uspic-contents{
+                    bottom: 5%;
+                    width: 65%;
+                    left: 5%;
+
+                }
+            }
+        }
+    }
+}
+@media (width <=780px) {
+    .aboutCon{
+        .us-picsCon{
+            .us-pics{
+                .pics{
+                    .uspic1{
+                        width: 98%;
+                        height: 75%;
+                    }
+                    .uspic2{
+                        width: 98%;
+                        height: 75%;
+                        left: 3%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+
+                        }
+                    }
+                }
+                
+                .uspic-contents{
+                    bottom: 5%;
+                    width: 65%;
+
+
+                }
+            }
+        }
+    }
+}
+@media (width <= 767px) {
+    .aboutCon{
+        .aboutz{
+            height: 50rem;
+            // height: 70vh;
+            .about{
+                top: 10%;
+                .usCon{
+                    gap: 1rem;
+                    // align-items: unset;
+                    .top{
+                        left: unset;
+                        position: relative;
+                        width: 80%;
+
+                        h1{
+                            font-size: 47px;
+                             font-family: 'Saol3';
+                                font-weight: 100;
+                        }
+                    }
+                    .us{
+                        flex-direction: column-reverse ;
+                        width: 80%;
+                        gap: 2.3rem;
+                        height: unset;
+
+
+                    // height: 33rem;
+                        .us-left{
+                        flex: unset;
+                        top: unset;
+                        height: 41%;
+
+                            .left-body{
+                                width: 80%;
+                                left: unset;
+                            }
+                        }
+                        .us-right{
+                        flex: unset;
+                        width: 100%;
+                        height: 52%;
+                        top: unset;
+                        }
+                    }
+                }
+            }
+        }
+        .belief-con{
+           
+            .belief{
+                width: 80%;
+                text-align: unset;
+                align-items: unset;
+                h1{
+                    font-size: 38px;
+                }
+            }
+        }
+        .aboutus{
+           
+            .about{
+                width: 80%;
+                text-align: unset;
+                align-items: unset;
+                h1{
+                    font-size: 38px;
+                }
+            }
+        }
+        .us-picsCon{
+            .us-pics{
+                flex-direction: column;
+                justify-content: unset;
+                align-items: unset;
+                gap: 1rem;
+                .pics{
+                    height: 60vh;
+                    width: 100%;
+                    .uspic1{
+                        width: 95%;
+                        height: 90%;
+                    }
+                    .uspic2{
+                        width: 95%;
+                        height: 90%;
+                        left: 3%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+
+                        }
+                    }
+                }
+           
+                .uspic-contents{
+                    position: relative;
+                    bottom: 5%;
+                    width: 60%;
+                    left: 1%;
+                    color: black;
+                    padding: unset;
+
+                    h1, p{
+                        color: black;
+
+                    }
+                    h1{
+                        font-size: 36px;
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                    .location-drop{
+                        display: none;
+                    }
+                    .arr{
+                        visibility: visible;
+                        color: black;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .weCon{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 4rem;
+            align-items: center;
+            justify-content: center;
+            .leftCon{
+                width: 95%;
+                .left{
+                    width: 100%;
+                }
+            }
+            .right{
+                width: 95%;
+            }
+        }
+        .vision-con{
+           
+            .vision{
+                width: 85%;
+                text-align: unset;
+                align-items: unset;
+                h1{
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
+@media (width <=700px) {
+    .aboutCon{
+        .us-picsCon{
+            width: 100%;
+            .us-pics{
+                flex-direction: column;
+                justify-content: unset;
+                align-items: unset;
+                gap: 1rem;
+                .pics{
+                    height: 50vh;
+                    width: 100%;
+                    .uspic1{
+                        width: 95%;
+                        height: 90%;
+                    }
+                    .uspic2{
+                        width: 95%;
+                        height: 90%;
+                        left: 3%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+
+                        }
+                    }
+                }
+           
+                .uspic-contents{
+                    position: relative;
+                    bottom: 5%;
+                    width: 60%;
+                    left: 1%;
+                    color: black;
+                    padding: unset;
+
+                    h1, p{
+                        color: black;
+
+                    }
+                    h1{
+                        font-size: 36px;
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                    .location-drop{
+                        display: none;
+                    }
+                    .arr{
+                        visibility: visible;
+                        color: black;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width <=600px) {
+    .aboutCon{
+        .aboutz{
+            height: 50rem;
+
+            .about{
+                top: 10%;
+                .usCon{
+                    gap: 1rem;
+
+                    // align-items: unset;
+                    .top{
+                        left: unset;
+                        position: relative;
+                        width: 90%;
+
+                        h1{
+                            font-size: 47px;
+                             font-family: 'Saol3';
+                                font-weight: 100;
+                        }
+                    }
+                    .us{
+                        // flex-direction: column-reverse ;
+                        width: 90%;
+                        gap: 2rem;
+                        height: unset;
+
+
+                        .us-left{
+                            height: 44.1%;
+                            .left-body{
+                                width: 85%;
+                            }
+                        }
+                        .us-right{
+                            height: 50.6%;
+
+                        }
+                    }
+                }
+            }
+        }
+        .belief-con{
+           
+            .belief{
+                width: 90%;
+                h1{
+                    font-size: 37px;
+                    // font-weight: 700;
+                }
+            }
+        }
+        .aboutus{
+           
+            .about{
+                width: 90%;
+                h1{
+                    font-size: 37px;
+                    // font-weight: 700;
+                }
+            }
+        }
+        .us-picsCon{
+            width: 100%;
+            .us-pics{
+                flex-direction: column;
+                justify-content: unset;
+                align-items: unset;
+                gap: 1rem;
+                .pics{
+                    height: 40vh;
+                    width: 100%;
+                    .uspic1{
+                        width: 95%;
+                        height: 90%;
+                    }
+                    .uspic2{
+                        width: 95%;
+                        height: 90%;
+                        left: 3%;
+                        top: 9%;
+                        .overlaid{
+                        background: rgba(0, 0, 0, .5);
+
+                        }
+                    }
+                }
+           
+                .uspic-contents{
+                    position: relative;
+                    bottom: 5%;
+                    width: 79%;
+                    left: 5%;
+                    color: black;
+                    padding: unset;
+                    
+                    h1, p{
+                        color: black;
+
+                    }
+                    h1{
+                        font-size: 30px;
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                    .location-drop{
+                        display: none;
+                    }
+                    .arr{
+                        visibility: visible;
+                        color: black;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+// @media (width <=450px) {
+//     .aboutCon{
+//         .truthCon{
+//             .truth{
+//                 .close-divs{
+//                     width: 85%;
+//                 }
+//             }
+//         }
+//     }
+// }
+@media (width <=400px) {
+    .aboutCon{
+        .aboutz{
+            height: 47rem;
+
+            .about{
+                top: 10%;
+                .usCon{
+                    gap: 1rem;
+
+                    // align-items: unset;
+                    .top{
+                        left: unset;
+                        position: relative;
+                        width: 90%;
+
+                        h1{
+                            font-size: 47px;
+                             font-family: 'Saol3';
+                                font-weight: 100;
+                        }
+                    }
+                    .us{
+                        // flex-direction: column-reverse ;
+                        width: 90%;
+                        gap: 2rem;
+
+
+                        .us-left{
+                            height: 44.1%;
+                            .left-body{
+                                width: 89%;
+                            }
+                        }
+                        .us-right{
+                            height: 50.6%;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (height >=1000px) {
+    .aboutCon{
+        .aboutz{
+            height: 100vh;
+            .about{
+                top: 10%;
+                height: 90%;
+
+                .usCon{
+                    height: 100%;
+                    .top{
+                        top: 2%;
+                    }
+                    .us{
+                        align-items: center;
+                        width: 85%;
+                    height: 100% ;
+                        .us-left{
+                            top: unset;
+                            .left-body{
+                                // width: 85%;
+                                // left: 10%;
+                            }
+                        }
+                        .us-right{
+                            top: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

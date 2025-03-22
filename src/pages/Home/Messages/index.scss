@@ -1,0 +1,95 @@
+.carousel-button-gp{
+    position: relative;
+    float: right;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    // bottom: 1%;
+    // margin: 3rem;
+    // left: 47%;
+    // margin-bottom: 4rem;
+    // border: 1px solid white;
+
+    .caro-btn{
+        background: none;
+        border: none;
+        padding: 5px;
+        font-size: large;
+        // margin-bottom: 4rem;
+    }
+}
+
+.messages-con{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    height: 55rem;
+    border: 1px solid white;
+    width: 100%;
+    
+    .message{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        // width: 100%;
+        gap: 1rem;
+        border: 5px solid blue;
+
+
+        .message-text{
+             display: flex;
+             border: 1px solid white;
+             flex: 1 1 0;
+    
+        }
+        
+        .message-slide{
+            display: flex;
+            border: 1px solid ;
+            overflow: hidden;
+            scroll-behavior: smooth;
+            border: 1px solid yellow;
+            width: 55rem;
+            height: 100%;
+            flex: 2 1 4;
+
+            .slides1{
+                display: flex;
+                width: 29.5rem;
+                cursor: grab;
+                height: 100%;
+                border: 5px solid pink;
+                
+    
+                .message-box{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                    color: white;
+                    width: 100%;
+                    // margin: 40px 20px 20px 20px;
+                    height: 100%;
+            
+            
+                    .message-top{
+                        display: flex;
+                        justify-content: space-between;
+                        opacity: 0.7;
+                    }
+                    h4{
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+        }
+     
+       
+    }
+
+    // .caros1{
+    //     display: flex;
+    //     // gap: ;
+    // }
+}

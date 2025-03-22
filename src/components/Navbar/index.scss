@@ -1,0 +1,339 @@
+body.active-modal{
+    overflow-y: hidden;
+  }
+  
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+    mix-blend-mode: difference;
+    backdrop-filter: blur(4px); 
+
+    .logo1-con{
+        margin: 2rem;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        // mix-blend-mode: difference;
+
+        a{
+            color: white;
+            // mix-blend-mode: difference;
+            
+        
+            h3{
+                font-size: 43px;
+                font-family: 'Saol3';
+                line-height: 110%;
+            font-weight: 700;
+
+            }
+            p{
+                    font-size: 11px;
+                    font-family: 'GTAmerica1';
+                    font-weight: 500;
+            }
+           
+        }
+        // .logo1{
+        //     display: flex;
+        //     flex-direction: column;
+        //     gap: 1rem;
+        // }
+        a{
+            width: fit-content;
+
+            img{
+                height: 3rem;
+            }
+        }
+    
+        // ul li{
+        //     color: white;
+        // }
+    
+        .dropdown{
+            width: max-content;
+            display: relative;
+            z-index: 100;
+            
+            .drop-btn{
+                background: none;
+                border: none;
+                color: white;
+                align-items: center;
+                display: flex;
+                font-family: 'GTAmerica';
+                font-weight: 700;
+            }
+            
+            .menu{
+                opacity: 0;
+             //    top: 15px;
+             //    bottom: 0;
+                 height: 1%;
+                position: absolute;
+                z-index: 101;
+                transition: 1.2s ease-in-out;
+                overflow: hidden;
+                
+ 
+                 a{
+                     font-size: 13px;
+                     transition: .2s ease-in-out;
+                    font-family: 'GTAmerica1';
+                    font-weight: 700;
+
+                     &:hover{
+                        opacity: 1;
+                        color: wheat;
+
+                     }
+                 }
+                
+             }
+             &:hover{
+               .menu{
+                opacity: 1;
+                height: 100%;
+                a{
+                }
+               }
+             }
+           
+        }
+       
+       
+    
+    }
+    .logo2-con{
+        display: none;
+        // opacity: 0;
+        margin: 2rem;
+        //  display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+
+       
+        a{
+            color: white;
+            font-weight: 600;
+    
+           
+        }
+
+        .dropdown{
+            width: max-content;
+            display: relative;
+            z-index: 100;
+            
+            .drop-btn{
+                background: none;
+                border: none;
+                color: white;
+                font-weight: 600;
+            }
+            
+            .menu{
+               opacity: 1;
+            //    top: 15px;
+            //    bottom: 0;
+               transform: scale(0);
+               position: absolute;
+               z-index: 101;
+               transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+            //    bottom: 15px;
+               overflow: hidden;
+               
+
+                a{
+                    font-size: 14px;
+                    
+                }
+               
+            }
+            &:hover{
+              .menu{
+               opacity: 1;
+               transform: scale(1);
+              }
+            }
+           
+        }
+        
+    }
+    
+    
+    
+
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2.5rem;
+        background: transparent;
+        font-weight: 700;
+
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 11px;
+            font-family: 'GTAmerica';
+            font-weight: 700;
+            &:hover{
+                color: wheat;
+            }
+        } 
+        .dropdown{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            // width: 7rem;
+            height: 6rem;
+            // z-index: 100;
+            position: relative;
+
+
+
+            
+            .drop-btn{
+                background: none;
+                border: none;
+                color: white;
+                font-size: 11px;
+            font-family: 'GTAmerica';
+            font-weight: 100;
+                position: relative;
+                cursor: pointer;
+                // bottom: 1%;
+                
+
+            }
+            
+            .menu{
+                
+                opacity: 0;
+                // left: 0;
+             //    bottom: 0;
+                 height: 1%;
+                position: relative;
+                z-index: 101;
+                transition: 1.2s ease-in-out;
+             //    bottom: 15px;
+                overflow: hidden;
+                // width: 6rem;
+                
+ 
+                 a{
+                     font-size: 9px;
+
+               
+                     
+                 }
+                //  ul{
+                //     display: flex;
+                //     flex-direction: column;
+                //     gap: 5px;
+                //     padding: 5px;
+
+                //  }
+                
+             }
+             &:hover{
+               .menu{
+                opacity: 1;
+                height: 80%;
+               }
+               
+             }
+           
+        }
+        .menu{
+            position: relative;
+            transition: all 0.3s ease-out;
+            border: none;
+            outline: 0;
+            cursor: pointer;
+            background: none;
+            font-size: 10px;
+            font-family: 'GTAmerica';
+            font-weight: 100;
+            height: fit-content;
+            color: white;
+
+            &::after{
+                content: '';
+                position: absolute;
+                width: 61%;
+                height: 0.175rem;
+                left: 17%;
+                // right: 5;
+                bottom: -5px;
+                background: #fff;
+                transition: all 0.3s ease-out;
+
+            }
+        
+            &:hover{
+                // color: #fff;
+            }
+
+        }
+       
+       
+    }
+
+   
+}
+
+@media (width <= 950px) {
+    nav{
+        .hide{
+            display: none;
+        }
+        
+    }
+}
+@media (width >= 800px) {
+    .nav-bar{
+        .logo1-con{
+            a{
+                width: fit-content;
+                img{
+                    height: 2rem;
+                    display: none;
+                }
+            }
+        }
+    
+    }
+   
+}
+@media (width <= 800px) {
+    .nav-bar{
+        align-items: center;
+        position: absolute;
+        background: none;
+        height: 10%;
+        .logo1-con{
+            margin: unset;
+        flex-direction: row;
+        align-items: center;
+
+           .logo1{
+            display: none;
+           }
+        }
+    }
+    nav{
+        align-items: center;
+
+    }
+}
+
+// 
+
